@@ -3,8 +3,24 @@ import { SET_HEADER_LINKS,
 
 
 const INITIAL_STATE = {
-    headerLinks: [],
-    navbarLinks: []
+    headerLinks: [
+        {
+            title: 'header',
+            active: true
+        },
+        {
+            title: 'header 2',
+            active: false
+        }
+    ],
+    navbarLinks: [
+        {
+            title: 'account'
+        },
+        {
+            title: 'purchases'
+        }
+    ]
 }
 
 export default function(state = INITIAL_STATE, action) {
