@@ -8,13 +8,102 @@ export function fetchUserPurchases() {
         payload: [
             {
                 _id: 0,
-                title: 'Purchase 1',
-                amount: 8.02
+                total: 8.02,
+                orderNumber: 'ANSUDVSofd6',
+                orderDate: new Date(),
+                creditCard: '-9999',
+                user: {
+                    name: 'Thomas Dolby',
+                    shippingAddress: '1234 West Main Street'
+                }
             },
             {
                 _id: 1,
-                title: 'Purchase 2',
-                amount: 19.40
+                total: 9.02,
+                orderNumber: 'ANSUDVSofd6',
+                orderDate: new Date(),
+                creditCard: '-9999',
+                user: {
+                    name: 'Thomas Dolby',
+                    shippingAddress: '1234 West Main Street'
+                }
+            },
+            {
+                _id: 2,
+                total: 82.02,
+                orderNumber: 'ANSUDVSofd6',
+                orderDate: new Date(),
+                creditCard: '-9999',
+                user: {
+                    name: 'Thomas Dolby',
+                    shippingAddress: '1234 West Main Street'
+                }
+            },
+            {
+                _id: 3,
+                total: 68.02,
+                orderNumber: 'ANSUDVSofd6',
+                orderDate: new Date(),
+                creditCard: '-9999',
+                user: {
+                    name: 'Thomas Dolby',
+                    shippingAddress: '1234 West Main Street'
+                }
+            },
+            {
+                _id: 4,
+                total: 84.02,
+                orderNumber: 'ANSUDVSofd6',
+                orderDate: new Date(),
+                creditCard: '-9999',
+                user: {
+                    name: 'Thomas Dolby',
+                    shippingAddress: '1234 West Main Street'
+                }
+            },
+            {
+                _id: 5,
+                total: 845.02,
+                orderNumber: 'ANSUDVSofd6',
+                orderDate: new Date(),
+                creditCard: '-9999',
+                user: {
+                    name: 'Thomas Dolby',
+                    shippingAddress: '1234 West Main Street'
+                }
+            },
+            {
+                _id: 6,
+                total: 38.02,
+                orderNumber: 'ANSUDVSofd6',
+                orderDate: new Date(),
+                creditCard: '-9999',
+                user: {
+                    name: 'Thomas Dolby',
+                    shippingAddress: '1234 West Main Street'
+                }
+            },
+            {
+                _id: 7,
+                total: 23.02,
+                orderNumber: 'ANSUDVSofd6',
+                orderDate: new Date(),
+                creditCard: '-9999',
+                user: {
+                    name: 'Thomas Dolby',
+                    shippingAddress: '1234 West Main Street'
+                }
+            },
+            {
+                _id: 8,
+                total: 10.02,
+                orderNumber: 'ANSUDVSofd6',
+                orderDate: new Date(),
+                creditCard: '-9999',
+                user: {
+                    name: 'Thomas Dolby',
+                    shippingAddress: '1234 West Main Street'
+                }
             }
         ]
     })
