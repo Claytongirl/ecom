@@ -12,11 +12,11 @@ class Purchases extends Component {
         return (
             <div className = {`${className} purchases`}>
             {
-                    this.props.purchases.map(purchase => {
+                this.props.purchases.map(purchase => {
                 return (
-                <div key = { purchase.__id } className = 'purchases__purchase purchase'>
+                <a onClick = {() => this.props.setPurchaseDetail(purchase._id)} key = { purchase.__id } className = 'purchases__purchase purchase'>
                 <img className='purchase__img' src='http://via.placeholder.com/80x80'/>
-                </div>
+                </a>
                         )
                     } )
                 }  
