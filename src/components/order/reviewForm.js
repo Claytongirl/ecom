@@ -15,13 +15,13 @@ class ReviewForm extends Component {
                
                 <div className='review-form__line'></div>
                 <Field className='review-form__proceed'
-                onClick={() => history.push('/shop')}
+                onClick={() => history.push('/signin')}
                 type='submit'
                 title='Proceed to Checkout'
                 name='proceed'
                 component={FormButton}/>
                 <Field className='review-form__back'
-                onClick={() => console.log("trying to go back")}
+                onClick={() => history.push('/shop')}
                 type='button'
                 title='Back'
                 name='back'
