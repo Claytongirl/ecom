@@ -8,7 +8,7 @@ import ReviewProducts from './reviewProducts';
 
 class ReviewForm extends Component {
     render() {
-        const { className, handleSubmit } = this.props;
+        const { className, handleSubmit, subtotal } = this.props;
 
         return (
             <form onSubmit={handleSubmit} className={`${className} review-form`}>
