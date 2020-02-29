@@ -36,7 +36,7 @@ class ShippingForm extends Component {
                 placeholder='State'
                 name='state'
                 component={FormInput}/>
-                <Field className='shipping-form__Zipcode'
+                <Field className='shipping-form__zipcode'
                 type='zipcode'
                 title='Zipcode'
                 placeholder='Zipcode'

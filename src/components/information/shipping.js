@@ -18,8 +18,8 @@ class Shipping extends Component {
     render() {
         return (
             <div className = 'shipping'>
-             <PageTitle className = "shipping-form__page-title" title = "Shipping Address"/>
-             <ShippingForm onSubmit={this.onSubmit} className="shipping-form__form"/>
+             <PageTitle className = "shipping__page-title" title = "Shipping Address"/>
+             <ShippingForm onSubmit={this.onSubmit} className="shipping__form"/>
             </div>
         )
     }
