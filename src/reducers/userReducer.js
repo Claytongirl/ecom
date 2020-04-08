@@ -2,7 +2,7 @@ import {
     SET_USER_PURCHASES,
     SET_PURCHASE_DETAIL,
     SET_CART_PRODUCTS,
-    ADD_CART_PRODUCTS,
+    ADD_CART_PRODUCT,
     AUTHENTICATE_USER
 } from '../actions/types';
 
@@ -31,7 +31,7 @@ export default function(state = INITIAL_STATE, action) {
                 ...state,
                 user
             }
-        case ADD_CART_PRODUCTS:
+        case ADD_CART_PRODUCT:
             var exists = false
             const newCP = action.payload;
             var cartProducts = []
